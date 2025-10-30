@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cancellazione in corso...</title>
+  <style>
+    body, html { margin:0; height:100%; background:#000; color:#0f0; font-family: 'Courier New'; overflow:hidden; }
+    .terminal { padding:20px; animation: blink 1s infinite; }
+    @keyframes blink { 50% { opacity:0.7; } }
+    .progress { width:0%; height:8px; background:#0f0; animation: fill 15s linear forwards; }
+    @keyframes fill { to { width:100%; } }
+  </style>
+</head>
+<body>
+  <div class="terminal">
+    <h2>» Cancellazione profilo in corso...</h2>
+    <p>Utente: [SCANSIONATO]<br>
+       ID: 9f3k-1a2b-8x7y<br>
+       Motivo: Rilevata attività non conforme</p>
+    <div class="progress"></div>
+    <p><small>100% completato. Addio.</small></p>
+  </div>
+</body>
+</html>
